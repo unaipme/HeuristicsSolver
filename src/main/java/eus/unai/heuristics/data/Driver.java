@@ -13,8 +13,6 @@ public class Driver {
 
     private int maxHours;
 
-    private @Builder.Default int wt = 0;
-
     @Override
     public int hashCode() {
         return Objects.hash(index, maxHours);
@@ -26,10 +24,6 @@ public class Driver {
         if (!(o instanceof Driver)) return false;
         Driver d = (Driver) o;
         return d.getIndex() == this.index && d.getMaxHours() == this.maxHours;
-    }
-
-    public void addWorkedTime(int n) {
-        this.wt += n;
     }
 
 }

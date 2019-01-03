@@ -1,0 +1,25 @@
+/*********************************************
+ * OPL 12.8.0.0 Data
+ * Author: InstanceGenerator by unai.perez.mendizabal and ferran.torres.morales
+ * Creation Date: Sat Dec 15 09:53:30 CET 2018
+ *********************************************/
+
+ nServices = 5;
+ nBuses = 8;
+ nDrivers = 9;
+
+ maxBuses = 5;
+ BM = 102;
+ CBM = 16.35;
+ CEM = 21.01;
+
+ st = [ 176 155 340 696 706 ];
+ sdt = [ 234 346 311 388 259 ];
+ sdd = [ 62 58 66 67 45 ];
+ dem = [ 84 53 59 41 58 ];
+
+ cap = [ 104 72 88 98 77 102 82 111 ];
+ euros_min = [2.08 3.16 4.05 2.24 2 3.96 4.5 2.72 ];
+ euros_km = [4.03 2.58 2.26 3.21 4.37 1.94 1.65 1.04 ];
+
+ maxHours = [ 10 8 5 7 7 6 7 5 7 ];
