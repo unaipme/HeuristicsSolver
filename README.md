@@ -1,10 +1,10 @@
 # HeuristicsSolver
 This repository contains the Java implementation of the greedy algorithm, local search and GRASP for the AMMM course project (UPC) by Unai Perez Mendizabal (unai.perez.mendizabal) and Ferran Torres Morales (ferran.torres.morales).
 
-To compile it, Apache Maven is needed. In Ubuntu, install Maven and compile the project with the following commands:
+To compile it, Java 8 JDK and Apache Maven are needed. In Ubuntu, you can install the dependencies and compile the project with the following commands:
 
 ```bash
-sudo apt install -y maven
+sudo apt install -y maven openjdk-8-jdk
 git clone https://github.com/unaipme/HeuristicsSolver
 cd HeuristicsSolver
 mvn clean package
